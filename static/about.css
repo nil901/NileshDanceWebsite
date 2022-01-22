@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+h1{
+    margin: 41px;
+    padding: 15px;
+    font-family: 'Festive', cursive;
+    text-align: center;
+} 
+p{
+    margin: 36px 131px;
+    text-align: center;
+    padding: 37px;
+    font-size: 25px;
+} 

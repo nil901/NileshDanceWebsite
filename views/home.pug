@@ -1,0 +1,35 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+     style
+        include ../static/style.css  
+ 
+block content
+   
+        section#introSectiom 
+             div Welcome to Nilesh Dance Acadrmy
+             div.small Eat Sleep Dance repeat
+                 
+       
+       
+        section#missionSection 
+              h2 Our Mission
+              div.card 
+                 h3 Dance Perfction
+              div.card 
+                 h3 Danc the way you like
+              div.card 
+                 h3 expert Teaching
+              
+       
+            
+        section#sponsorSection 
+              h2 Our Sponsors
+              div#sponsor
+                img(src="/static/img/img2.1.png",alt = "sponsrimage" ,Class = "spimage")
+                img(src="/static/img/img2.2.png",alt = "sponsrimage" ,Class = "spimage")
+                img(src="/static/img/img2.3.png",alt = "sponsrimage" ,Class = "spimage")
+                img(src="/static/img/img2.5.png",alt = "sponsrimage" ,Class = "spimage")
